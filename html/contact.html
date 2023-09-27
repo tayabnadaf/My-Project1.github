@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        div.contact {
+            background-color: #0150d1;
+            width: 300px;
+            margin-top: 0%;
+            margin-left: auto;
+            margin-right: 0px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            
+            border-left: 2px dashed black;
+        }
+
+        div.contact a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            margin-bottom: 50px;
+            font-family: cursive;
+        }
+
+        div.contact img {
+            margin-right: 10px;
+        }
+
+        div.form {
+            background-color: #0362f9;
+            float: left; 
+            width: 300px;
+            margin-top: 0%;
+            margin-left: auto;
+            margin-right: 0px;
+            padding-top: 10px;
+            padding-bottom: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+        div.form input{
+            border-radius: 50px;
+        }
+        div.form p {
+            margin: 5px;
+        }
+
+        div.form input[type="text"],
+        div.form input[type="number"],
+        div.form input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        div.form input[type="submit"] {
+            width: auto; 
+        }
+        div.contact a:hover{
+            color: crimson;
+            transition: 0.3s;
+        }
+        div.contact a{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="/html/TAP.jpg" alt="Logo" width="50" height="50">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="eduatn.html">Graduation</a>
+        <a href="/html/contact.html" style="border-bottom: 2px solid  #ff4500;">My Contact</a>
+    </nav>
+    <div class="form">
+        <form action="">
+            <p><b>For More Information</b> </p>
+            <p>Name <input type="text" name="nmae" id="name"></p>
+            <p>Phno <input type="number" name="number" id="number"></p>
+            <p>E-Mail <input type="email" name="email" id="email"></p>
+            <p>More Info <input type="text"></p>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="contact">
+        <a href="https://www.instagram.com/tayabnadaf0707/?igshid=MzMyNGUyNmU2YQ%3D%3D" target="_blank">
+            <img src="/html/insta logo.jpg" alt="" width="30px" height="30px">
+            tayabnadaf0707
+        </a>
+        <a href="tel:7613421873" target="_blank">
+            <img src="/html/call1111.jpg" alt="" width="30px" height="30px">
+            7613421873
+        </a>
+        <a href="https://www.linkedin.com/in/tayab-nadaf-2191b1226/" target="_blank">
+            <img src="/html/linkedin.jpg" alt="" width="30px" height="30px">
+            tayab nadaf
+        </a>
+    </div>
+</body>
+</html>
